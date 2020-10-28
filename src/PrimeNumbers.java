@@ -34,7 +34,7 @@ public class PrimeNumbers {
 
         while(counter <= squareRootFromUsersNum) {
             if (numProvidedByUser % counter == 0) {
-                var = 1;
+                var ++;
             }
             counter++;
         }
